@@ -6,6 +6,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import blob_green from '@/public/blob_green.png'
 import zine from '@/public/zine.png'
+import { text } from '../data';
 
 export const social = [
     {
@@ -16,7 +17,7 @@ export const social = [
     },
     {
         platform: "github",
-        url: "https://www.facebook.com/",
+        url: text.gitHub,
         logo: <FaGithub />,
         
     },
@@ -31,9 +32,9 @@ const Navbar = () => {
        <Logo className=' -rotate-6 my-5 '/>
        <div className='flex flex-row text-2xl gap-6 cursor-pointer '>
          {
-            social.map((data)=>(
-               <Link key={data.platform} href={data.url} target='_blank' >
-                <div key={data.platform}>
+            social.map((data,index)=>(
+               <Link key={index} href={data.url} target='_blank' >
+                <div key={index}>
                    {data.logo}
                 </div>
                </Link>
