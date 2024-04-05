@@ -13,12 +13,13 @@ export default function Home() {
    <>
    <Maxwidth>
     <Navbar/>
-    <Hero/>
+     <Hero/>
      <About/>
      <Deviders text="Skills"/>
      <Skills/>
      <Deviders text="Projects"/>
      <Projects/>
+    
      <Deviders text="Get in touch" id="contect"/>
      <Contact />
      <Footer/>
