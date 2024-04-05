@@ -31,9 +31,9 @@ const Footer = () => {
 
         <div className='flex flex-row text-2xl gap-6 cursor-pointer '>
          {
-            social.map((data)=>(
-               <Link key={data.platform} href={data.url} target='_blank' >
-                <div key={data.platform}>
+            social.map((data,index)=>(
+               <Link key={index} href={data.url} target='_blank' >
+                <div key={index}>
                    {data.logo}
                 </div>
                </Link>

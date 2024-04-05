@@ -12,11 +12,11 @@ const Hero1 = () => {
   <h1 className="text-center sm:text-6xl text-2xl  sm:leading-[70px] leading-normal font-bold ">
     My name is{" "}
     <span className="font-semibold underline decoration-green-500 underline-offset-8 ">Bhaskar Bhandari</span>
-     <br />I'm a full stack developer
+     <br />I&apos;m a full stack developer
   </h1>
   <p className="text-center sm:text-lg text-sm max-w-prose leading-noraml">
-    I'm a full stack developer.
-    I've explored various technologies and tools.
+    I&apos;m a full stack developer.
+    I&apos;ve explored various technologies and tools.
     always interested in learning new things.
   </p>
   <div className="flex flex-row gap-6">
