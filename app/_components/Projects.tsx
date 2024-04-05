@@ -12,9 +12,9 @@ const Projects = () => {
     <div className='flex justify-center flex-col items-center gap-10 my-20 mb-40' >
     <div className='flex flex-wrap justify-evenly gap-3'>
       {
-       projects.map((data,index)=>(
-        <Link href={data.Link} target='_blank' key={index} >
-        <div key={data.id} className='w-[240px] h-[150px] rounded-md flex justify-center items-center group relative glowing-border'>
+       projects.map((data)=>(
+        <Link href={data.Link} target='_blank' key={data.id} >
+        <div className='w-[240px] h-[150px] rounded-md flex justify-center items-center group relative glowing-border'>
            <div className='w-full h-full bg-black hidden bg-opacity-50 absolute group-hover:block'></div>
            <Image src={data.image} alt='project' width={400} height={400} className='h-full w-full object-cover' />
            <div className='absolute bottom-2 left-2 invisible group-hover:visible'>
