@@ -1,3 +1,4 @@
+![Screenshot 1](https://i.postimg.cc/X75BhcwT/Screenshot-85.png)
 # Portfolio Project
 
 This is a simple and minimal portfolio website built with Next.js.
