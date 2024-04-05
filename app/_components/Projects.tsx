@@ -4,41 +4,10 @@ import { FaGithub } from 'react-icons/fa';
 import Button1 from './button/Button1';
 import { text } from '../data';
 import Link from 'next/link';
-import { SiExpress, SiMongodb, SiNextdotjs, SiTailwindcss } from 'react-icons/si';
-import { FaNodeJs, FaReact } from 'react-icons/fa';
-import draw from '@/public/draw.png';
-import airNote from '@/public/airNote.png';
-import airScholar from '@/public/airScholar.png';
+import { projects } from '../Alldata';
 
 
 const Projects = () => {
-const projects = [
-    {
-      id:21,
-      name: "Air Scholar",
-      description: "EdTech platform to seamlessly create and sell courses.",
-      photoSkillsUsed: [<FaReact />, <FaNodeJs />, <SiTailwindcss />,<SiExpress />,<SiMongodb />],
-      image: airScholar,
-      Link:'https://air-scholar.vercel.app/'
-    },
-    {
-      id:22,
-      name: "Air Note",
-      description: "A user-friendly React blog app.",
-      photoSkillsUsed: [<FaReact />, <FaNodeJs />, <SiTailwindcss />,<SiExpress />,<SiMongodb />],
-      image: airNote,
-      Link:'https://airnote-blog.vercel.app'
-    },
-    {
-      id:24,
-      name: "Draw",
-      description: "Eraser like website to create diagrams",
-      photoSkillsUsed: [<SiNextdotjs />,<SiTailwindcss />],
-      image: draw,
-      Link:'https://draw-web.vercel.app/'
-    },
-  ];
-
   return (
     <div className='flex justify-center flex-col items-center gap-10 my-20 mb-40' >
     <div className='flex flex-wrap justify-evenly gap-3'>
