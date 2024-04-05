@@ -17,6 +17,7 @@ import {
   SiPostgresql,
   SiPostman,
   SiPrisma,
+  SiRedux,
   SiTailwindcss,
 } from "react-icons/si";
 import { DiNodejs } from "react-icons/di";
@@ -32,6 +33,7 @@ const Skills = () => {
       { name: "React.js", logo: <FaReact /> },
       { name: "next.js", logo: <SiNextdotjs /> },
       { name: "Tailwind", logo: <SiTailwindcss /> },
+      { name: "Redux", logo: <SiRedux /> },
     ],
     backend: [
       { name: "Node.js", logo: <IoLogoNodejs /> },

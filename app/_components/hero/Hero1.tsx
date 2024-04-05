@@ -20,7 +20,7 @@ const Hero1 = () => {
     always interested in learning new things.
   </p>
   <div className="flex flex-row gap-6">
-    <Button1 text="Contact" icon={<MdOutlineInsertPageBreak />} />
+    <Button1 text="Resume" fileUrl='/resume.pdf'  icon={<MdOutlineInsertPageBreak />} />
     <Button2 text="Contact" href={'#contect'} icon={<FaArrowDown />} />
   </div>
 </div>

@@ -11,7 +11,7 @@ import { text } from '../data';
 export const social = [
     {
         platform: "X",
-        url: "https://www.facebook.com/",
+        url: "https://twitter.com/BsB02266322",
         logo: <RiTwitterXLine />,
         
     },
