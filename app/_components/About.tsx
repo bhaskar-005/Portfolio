@@ -5,7 +5,7 @@ import JS from '@/public/JS.jpg'
 
 const About = () => {
   return (
-   <section className='bg-green-500 rounded-md p-10 mb-40'>
+   <section className='bg-green-500 rounded-md sm:p-10 p-8 mb-40'>
     <div>
       <h2 className='text-black text-2xl font-bold  my-3'>About Me</h2>
       <p className='text-lg text-black font-[600]'>{text.about}</p>

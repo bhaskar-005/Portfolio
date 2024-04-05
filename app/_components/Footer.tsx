@@ -3,19 +3,23 @@ import { IoIosMail } from 'react-icons/io';
 import { text } from '../data';
 import Link from 'next/link';
 import { social } from './Navbar';
+import Logo from './Logo';
 
 const Footer = () => {
   return (
 
 <footer >
-  <div>
+  <div >
+    <div className=' flex justify-between items-center'>
     <div className='my-10 opacity-80 mt-24'>
         <div className='flex items-center gap-2 '>
          <IoIosMail className='text-2xl' />
          <div className='text-lg'>Mail</div>
         </div>
         <p className='font-thin text-gray-400'>Feel free to drop me an email</p>
-        <p className='font-[600] hover:underline hover:underline-offset-4 decoration-lime-400'>{text.email}</p>
+        <p className='font-[600] hover:underline hover:underline-offset-4 decoration-lime-400'>{process.env.ADMIN_EMAIL}</p>
+    </div>
+    <Logo className='-rotate-12 sm:block hidden' />
     </div>
 
     <div className="mt-1 border-t border-gray-600 py-6 ">

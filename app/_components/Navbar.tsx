@@ -1,5 +1,4 @@
 import React from 'react';
-import Maxwidth from './MaxWidth';
 import Logo from './Logo';
 import { RiTwitterXLine } from 'react-icons/ri';
 import { FaGithub } from 'react-icons/fa';
@@ -27,7 +26,6 @@ export const social = [
 
 const Navbar = () => {
   return (
-   <Maxwidth>
      <div className=' flex flex-row justify-between items-center relative'>
        <Image src={zine} alt='img' className=' absolute -translate-y-28 rotate-180 left-0 opacity-30 z-[-9999]  select-none  '/>
        <Logo className=' -rotate-6 my-5 '/>
@@ -43,7 +41,6 @@ const Navbar = () => {
          }
        </div>
     </div>
-   </Maxwidth>
   );
 }
 

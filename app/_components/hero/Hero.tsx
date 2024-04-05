@@ -7,13 +7,13 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-       <Maxwidth className2 =' relative '>
-        <Image src={blob_green} alt="img" className=' absolute right-0 w-[800px] translate-y-[420px] translate-x-[200px] opacity-30 z-[-9999] select-none '/>
+       <div className=' relative '>
+        <Image src={blob_green} alt="img" className=' absolute right-0 w-[800px] translate-y-[330px] translate-x-[200px] opacity-30 z-[-9999] select-none '/>
          <section className=' mt-[90px] mb-[160px] z-10'>
             <Hero1/>
             {/* <Hero2/> */}
          </section>
-       </Maxwidth>
+       </div>
   
   );
 }

@@ -55,7 +55,7 @@ const Skills = () => {
       <div className="my-10">
         <p className="text-lg font-[400] opacity-70">Frontend Skills </p>
       </div>
-      <div className="flex flex-wrap gap-8">
+      <div className="flex flex-wrap justify-center gap-8">
         {skills.frontend.map((data) => (
           <SkillCard key={data.name} logo={data.logo} name={data.name} />
         ))}
@@ -63,7 +63,7 @@ const Skills = () => {
       <div className="my-10">
         <p className="text-lg font-[400] opacity-70">Backend Skills</p>
       </div>
-      <div className="flex flex-wrap gap-8">
+      <div className="flex flex-wrap justify-center gap-8">
         {skills.backend.map((data) => (
           <SkillCard key={data.name} logo={data.logo} name={data.name} />
         ))}
@@ -71,7 +71,7 @@ const Skills = () => {
       <div className="my-10">
         <p className="text-lg font-[400] opacity-70">Other tools</p>
       </div>
-      <div className="flex flex-wrap gap-8">
+      <div className="flex flex-wrap justify-center gap-8">
         {skills.other.map((data) => (
           <SkillCard key={data.name} logo={data.logo} name={data.name} />
         ))}

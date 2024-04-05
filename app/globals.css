@@ -16,6 +16,9 @@
   }
 }
 
+html{
+  scroll-behavior: smooth;
+}
 body {
   color: rgb(var(--foreground-rgb));
   background: #0F162B;
@@ -30,7 +33,6 @@ body {
 
 .highliteDiv {
   --green: #1BFD9C;
-  font-size: 13px;
   padding: 0.4em 2em;
   letter-spacing: 0.06em;
   position: relative;

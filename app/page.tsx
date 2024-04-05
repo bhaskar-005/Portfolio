@@ -11,15 +11,15 @@ import Footer from "./_components/Footer";
 export default function Home() {
   return (
    <>
+   <Maxwidth>
     <Navbar/>
     <Hero/>
-    <Maxwidth>
      <About/>
-      <Deviders text="Skills"/>
+     <Deviders text="Skills"/>
      <Skills/>
      <Deviders text="Projects"/>
      <Projects/>
-     <Deviders text="Get in touch"/>
+     <Deviders text="Get in touch" id="contect"/>
      <Contact />
      <Footer/>
     </Maxwidth>
