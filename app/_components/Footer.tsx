@@ -4,6 +4,7 @@ import { text } from '../data';
 import Link from 'next/link';
 import { social } from './Navbar';
 import Logo from './Logo';
+import CopytextP from './CopytextP';
 
 const Footer = () => {
   return (
@@ -17,7 +18,7 @@ const Footer = () => {
          <div className='text-lg'>Mail</div>
         </div>
         <p className='font-thin text-gray-400'>Feel free to drop me an email</p>
-        <p className='font-[600] hover:underline hover:underline-offset-4 decoration-lime-400'>{process.env.ADMIN_EMAIL}</p>
+        <CopytextP text={process.env.ADMIN_EMAIL!}  />
     </div>
     <Logo className='-rotate-12 sm:block hidden' />
     </div>
