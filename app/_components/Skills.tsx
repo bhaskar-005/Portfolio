@@ -6,6 +6,7 @@ import { IoLogoCss3, IoLogoNodejs } from "react-icons/io";
 import {
   FaGitAlt,
   FaGithub,
+  FaHtml5,
   FaJsSquare,
   FaLinux,
   FaReact,
@@ -17,31 +18,36 @@ import {
   SiPostgresql,
   SiPostman,
   SiPrisma,
+  SiReactquery,
   SiRedux,
   SiTailwindcss,
 } from "react-icons/si";
-import { DiNodejs } from "react-icons/di";
+import { DiNodejs, DiRedis } from "react-icons/di";
 import { BiLogoTypescript } from "react-icons/bi";
 import { TbBrandVscode } from "react-icons/tb";
+import { GrGraphQl } from "react-icons/gr";
 
 const Skills = () => {
   const skills = {
     frontend: [
-      { name: "HTML", logo: <TiHtml5 /> },
-      { name: "CSS", logo: <IoLogoCss3 /> },
-      { name: "JavaScript", logo: <FaJsSquare /> },
-      { name: "React.js", logo: <FaReact /> },
-      { name: "next.js", logo: <SiNextdotjs /> },
-      { name: "Tailwind", logo: <SiTailwindcss /> },
-      { name: "Redux", logo: <SiRedux /> },
+      { name: "HTML", logo: <FaHtml5 />,colour:'#e5532d' },
+      { name: "CSS", logo: <IoLogoCss3 /> ,colour:'#306AF1'},
+      { name: "JavaScript", logo: <FaJsSquare />,colour:'#F7E025' },
+      { name: "React.js", logo: <FaReact />,colour:'#66DBFB' },
+      { name: "next.js", logo: <SiNextdotjs />,colour:'#FCFCFC' },
+      { name: "Tailwind", logo: <SiTailwindcss />,colour:'#3EBFF8' },
+      { name: "ReactQuery", logo: <SiReactquery />,colour:'#ff4759'},
+      { name: "Redux", logo: <SiRedux />,colour:'#7a50be'  },
     ],
     backend: [
       { name: "Node.js", logo: <IoLogoNodejs /> },
-      { name: "TypeScript", logo: <BiLogoTypescript /> },
-      { name: "Express.js", logo: <SiExpress /> },
-      { name: "MongoDB", logo: <SiMongodb /> },
-      { name: "Postgresql", logo: <SiPostgresql /> },
-      { name: "Prisma", logo: <SiPrisma /> },
+      { name: "TypeScript", logo: <BiLogoTypescript />},
+      { name: "Express.js", logo: <SiExpress />},
+      { name: "MongoDB", logo: <SiMongodb />},
+      { name: "Postgresql", logo: <SiPostgresql />},
+      { name: "Prisma", logo: <SiPrisma />  },
+      { name: "Graphql", logo: <GrGraphQl /> },
+      { name: "Redis", logo: <DiRedis />  },
     ],
     other: [
       { name: "Git", logo: <FaGitAlt /> },
@@ -59,7 +65,7 @@ const Skills = () => {
       </div>
       <div className="flex flex-wrap justify-center gap-8">
         {skills.frontend.map((data,index) => (
-          <SkillCard key={index} logo={data.logo} name={data.name} />
+          <SkillCard key={index} logo={data.logo} name={data.name}  />
         ))}
       </div>
       <div className="my-10">
@@ -67,7 +73,7 @@ const Skills = () => {
       </div>
       <div className="flex flex-wrap justify-center gap-8">
         {skills.backend.map((data,index) => (
-          <SkillCard key={index} logo={data.logo} name={data.name} />
+          <SkillCard key={index} logo={data.logo} name={data.name}  />
         ))}
       </div>
       <div className="my-10">
@@ -75,7 +81,7 @@ const Skills = () => {
       </div>
       <div className="flex flex-wrap justify-center gap-8">
         {skills.other.map((data,index) => (
-          <SkillCard key={index} logo={data.logo} name={data.name} />
+          <SkillCard key={index} logo={data.logo} name={data.name}/>
         ))}
       </div>
     </div>
