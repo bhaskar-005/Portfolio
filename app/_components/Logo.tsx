@@ -7,7 +7,7 @@ const Logo = ({className}:{className?:string}) => {
   return (
    <Link href={'/'}>
        <div className={`sm:w-[150px] w-[130px] ${className} `}>
-      <Image src={logo} loading='lazy' alt="logo" className='w-full h-full invert-0 dark:invert ' />
+      <Image src={logo} loading='lazy' alt="logo" className='w-full h-full invert ' />
     </div>
    </Link>
   );

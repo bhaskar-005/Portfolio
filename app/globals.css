@@ -34,6 +34,7 @@ body {
 .highliteDiv {
   --green: #1BFD9C;
   padding: 0.4em 2em;
+  color:white;
   letter-spacing: 0.06em;
   position: relative;
   font-family: inherit;

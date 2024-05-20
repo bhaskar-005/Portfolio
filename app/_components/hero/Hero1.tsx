@@ -9,12 +9,12 @@ const Hero1 = () => {
   return (
     <div className="flex flex-col justify-center items-center sm:gap-10 gap-12 ">
   <HighlitingDiv text="Hey there, pleasure to meet you 👋" />
-  <h1 className="text-center sm:text-6xl text-2xl  sm:leading-[70px] leading-normal font-bold ">
+  <h1 className="text-center text-white sm:text-6xl text-2xl  sm:leading-[70px] leading-normal font-bold ">
     My name is{" "}
     <span className="font-semibold underline decoration-green-500 underline-offset-8 ">Bhaskar Bhandari</span>
      <br />I&apos;m a full stack developer
   </h1>
-  <p className="text-center sm:text-lg text-sm max-w-prose leading-noraml">
+  <p className="text-center text-white sm:text-lg text-sm max-w-prose leading-noraml">
     I&apos;m a full stack developer.
     I&apos;ve explored various technologies and tools.
     always interested in learning new things.

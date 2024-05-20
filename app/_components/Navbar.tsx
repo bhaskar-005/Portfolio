@@ -34,7 +34,7 @@ const Navbar = () => {
          {
             social.map((data,index)=>(
                <Link key={index} href={data.url} target='_blank' >
-                <div key={index}>
+                <div key={index} className='text-white'>
                    {data.logo}
                 </div>
                </Link>

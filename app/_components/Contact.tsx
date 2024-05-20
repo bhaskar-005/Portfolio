@@ -8,7 +8,7 @@ import ContectForm from './ContectForm';
 const Contact = () => {
   
   return (
-    <section className='flex sm:flex-row flex-col mt-20 pb-20 relative '>
+    <section className='flex sm:flex-row flex-col mt-20 pb-20 relative text-white '>
       <Image src={orbit} alt='img' className='absolute z-[-9999] opacity-10 select-none '/>
       <Image src={blob_green} alt='img' className='absolute z-[-9999] opacity-10 select-none -translate-y-52'/>
       <div className='sm:w-[50%] w-full h-auto flex justify-center items-center'>

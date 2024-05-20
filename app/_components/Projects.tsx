@@ -9,8 +9,8 @@ import { projects } from '../Alldata';
 
 const Projects = () => {
   return (
-    <div className='flex justify-center flex-col items-center gap-10 my-20 mb-40' >
-    <div className='flex flex-wrap justify-evenly gap-3'>
+    <div className=' text-white flex justify-center flex-col items-center gap-10 my-20 mb-40' >
+    <div className='flex flex-wrap justify-evenly gap-6'>
       {
        projects.map((data)=>(
         <Link href={data.Link} key={data.id} target='_blank'>

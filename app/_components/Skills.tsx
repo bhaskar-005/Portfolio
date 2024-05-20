@@ -59,7 +59,7 @@ const Skills = () => {
   };
 
   return (
-    <div className="my-6 mb-40 flex flex-col justify-center items-center">
+    <div className="my-6 mb-40 flex flex-col justify-center items-center text-white">
       <div className="my-10">
         <p className="text-lg font-[400] opacity-70">Frontend Skills </p>
       </div>

@@ -11,7 +11,7 @@ const Footer = () => {
 
 <footer >
   <div >
-    <div className=' flex justify-between items-center'>
+    <div className=' flex justify-between items-center text-white'>
     <div className='my-10 opacity-80 mt-24'>
         <div className='flex items-center gap-2 '>
          <IoIosMail className='text-2xl' />
@@ -34,7 +34,7 @@ const Footer = () => {
          {
             social.map((data,index)=>(
                <Link key={index} href={data.url} target='_blank' >
-                <div key={index}>
+                <div key={index} className='text-white'>
                    {data.logo}
                 </div>
                </Link>
