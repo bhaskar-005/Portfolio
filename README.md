@@ -17,4 +17,3 @@ This project is a personal portfolio website built using Next.js, a React framew
 
 ## Demo
 
-[Add a link to a live demo of your portfolio here, if available]
